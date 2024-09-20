@@ -15,11 +15,7 @@ body {
     line-height: 28px;
     color: #6a6a6a;
     font-size: 16px;
-    /*backgorund thun edit*/
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(106, 104, 104, 0.9), rgba(0, 0, 0, 0.9));
-    background-size: cover;
-    background-position: center;
-    /*backgorund thun edit*/
+    background-color: white;
   }
   
 a {
@@ -125,43 +121,62 @@ a {
   .hero p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px; }
+  /*thun edit*/
   .hero .hero-img-wrap {
-    position: relative; }
+    position: relative;
+}
+
+.hero .hero-img-wrap img {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 3; /* Increased z-index to ensure image is above dots */
+    max-width: 400px;
+    left: 0; /* Reset left positioning */
+}
+
+@media (min-width: 768px) {
     .hero .hero-img-wrap img {
-      position: relative;
-      top: 0px;
-      right: 0px;
-      z-index: 2;
-      max-width: 650px;
-      left: -20px; }
-      @media (min-width: 768px) {
-        .hero .hero-img-wrap img {
-          right: 0px;
-          left: -100px; } }
-      @media (min-width: 992px) {
-        .hero .hero-img-wrap img {
-          left: 0px;
-          top: -80px;
-          position: absolute;
-          right: -50px; } }
-      @media (min-width: 1200px) {
-        .hero .hero-img-wrap img {
-          left: 0px;
-          top: -80px;
-          right: -100px; } }
+        right: -50px; /* Move slightly to the right */
+        left: auto; /* Reset left positioning */
+    }
+}
+
+@media (min-width: 992px) {
+    .hero .hero-img-wrap img {
+        top: -80px;
+        position: absolute;
+        right: -100px; /* Move further to the right */
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero .hero-img-wrap img {
+        top: -80px;
+        right: -90px; /* Move even further to the right for larger screens */
+    }
+}
+
+.hero .hero-img-wrap:after {
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 217px;
+    background-image: url("../images/dots-light.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -50px; /* Adjusted to move dots more to the left */
+    top: 0px;
+    z-index: 2; /* Ensure dots are below the image */
+}
+
+@media (min-width: 1200px) {
     .hero .hero-img-wrap:after {
-      content: "";
-      position: absolute;
-      width: 255px;
-      height: 217px;
-      background-image: url("../images/dots-light.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      right: -100px;
-      top: -0px; }
-      @media (min-width: 1200px) {
-        .hero .hero-img-wrap:after {
-          top: -40px; } }
+        top: -40px;
+        right: -100px; /* Adjust dots position for larger screens */
+    }
+}
+    /*thun edit*/
 
 .btn {
   font-weight: 600;
@@ -890,4 +905,6 @@ textarea {
   font-weight: bold;
   font-size: 20px;
 }
+/*Info-section*/
+
 /**Thun Edit Css Ended Here**/
