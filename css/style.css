@@ -421,7 +421,7 @@ a {
   padding: 3rem 0 7rem 0; }
 
 .testimonial-slider-wrap {
-  position: relative; }
+  position: relative;}
   .testimonial-slider-wrap .tns-inner {
     padding-top: 0px; }
   .testimonial-slider-wrap .item .testimonial-block blockquote {
@@ -709,3 +709,4 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+    
