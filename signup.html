@@ -65,38 +65,49 @@
     </div>
   </div>  
 
-  <div class="untree_co-section before-footer-section">
+  <div class="untree_co-section">
     <div class="container">
-      <div class="row mb-5">
-        <form class="col-md-12" method="post" action="signup_process.php">
-          <div class="mb-3">
-            <label for="name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="name" name="name" required>
+      <div class="block">
+            <form>
+              <div class="row">
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="fname">First name</label>
+                    <input type="text" class="form-control" id="fname">
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-group">
+                    <label class="text-black" for="lname">Last name</label>
+                    <input type="text" class="form-control" id="lname">
+                  </div>
+                </div>
+              <div class="form-group">
+                <label class="text-black" for="email">Email address</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+
+              <div class="form-group mb-5">
+                <label class="text-black" for="message">Password</label>
+                <input name="" class="form-control"></input>
+              </div>
+              
+              <div class="form-group mb-5">
+                <label class="text-black" for="message">Tel.</label>
+                <input name="" class="form-control"></input>
+              </div>
+
+              <button type="submit" class="btn btn-primary-hover-outline">Send Message</button>
+            </form>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" name="password" required>
-          </div>
-          <div class="mb-3">
-            <label for="confirm_password" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
-          </div>
-          <div class="mb-3">
-            <label for="confirm_password" class="form-label">Confirm Password</label>
-            <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
-           </div>
-          <div class="text-center">
-            <button type="submit" class="btn btn-black">Sign up</button>
-            <button type="button" class="btn btn-black" onclick="window.location='index.html'">Cancel</button>
         </div>
-        </form>
       </div>
     </div>
   </div>
+</div>
+
+<!-- End Contact Form -->
+
 
   <!-- Start Footer Section -->
   <footer class="footer-section">
