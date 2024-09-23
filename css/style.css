@@ -336,9 +336,10 @@ a {
   .we-help-section .imgs-grid {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[27];
+    -ms-grid-columns: (27, 1fr);
     grid-template-columns: repeat(27, 1fr);
-    position: relative; }
+    position: relative; 
+  }
     .we-help-section .imgs-grid:before {
       position: absolute;
       content: "";
@@ -441,7 +442,7 @@ a {
   padding: 3rem 0 7rem 0; }
 
 .testimonial-slider-wrap {
-  position: relative; }
+  position: relative;}
   .testimonial-slider-wrap .tns-inner {
     padding-top: 0px; }
   .testimonial-slider-wrap .item .testimonial-block blockquote {
