@@ -906,6 +906,32 @@ textarea {
   font-weight: bold;
   font-size: 20px;
 }
+
+/*Sponsor Page*/
+.sponsor-section {
+  background: linear-gradient(135deg, #7c231b, #333); /* Custom red to black gradient */
+  color: white; /* Ensures text remains visible */
+  padding: 50px 0;
+}
+
+.sponsor-tag-gold{
+  margin-bottom:30px;
+  font-weight:bold;
+  color:gold;
+}
+
+.sponsor-tag-silver{
+  margin-bottom:30px;
+  font-weight:bold;
+  color:silver;
+}
+
+.sponsor-tag-bronze{
+  margin-bottom:30px;
+  font-weight:bold;
+  color: #cd7f32;
+}
+
 .page-margin .hero {
   margin-bottom: 50px; /* เพิ่มระยะห่างระหว่าง Hero กับ Footer เฉพาะหน้านี้ */
 }
@@ -971,4 +997,36 @@ textarea {
 
 /*Info-section*/
 
+
+.sponsor-logo img {
+  max-height: 150px;
+  object-fit: contain;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 5px; /* Adds some padding inside the border */
+  background-color: #fff; /* Ensures a white background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect on hover */
+}
+
+.sponsor-logo img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+}
+/*Sponsor Hero Section*/
+.img-sponsor img{
+  border-radius:15px;
+  width:65%;
+  height:65%;
+  float:right;
+}
+.mini-info {
+  font-weight: bold;
+  font-size: 18px; /* Increase font size */
+  font-family: Arial, sans-serif; /* Change font family */
+  color: #333; /* Change text color */
+  text-align: left; /* Center align text */
+  margin-bottom: 10px; /* Add some margin */
+}
 /**Thun Edit Css Ended Here**/
