@@ -906,6 +906,7 @@ textarea {
   font-weight: bold;
   font-size: 20px;
 }
+
 /*Sponsor Page*/
 .sponsor-section {
   background: linear-gradient(135deg, #7c231b, #333); /* Custom red to black gradient */
@@ -930,6 +931,72 @@ textarea {
   font-weight:bold;
   color: #cd7f32;
 }
+
+.page-margin .hero {
+  margin-bottom: 50px; /* เพิ่มระยะห่างระหว่าง Hero กับ Footer เฉพาะหน้านี้ */
+}
+
+.page-margin .footer-section {
+  padding-top: 5px; /* เพิ่ม padding-top เฉพาะหน้า */
+}
+.bottom-right-button {
+  position: fixed; /* ทำให้ปุ่มอยู่ในตำแหน่งที่แน่นอน */
+  bottom: 20px; /* ระยะห่างจากด้านล่าง */
+  right: 20px; /* ระยะห่างจากด้านขวา */
+  background-color: #007bff; /* สีพื้นหลัง */
+  color: white; /* สีตัวอักษร */
+  border: none; /* ไม่ต้องการเส้นขอบ */
+  border-radius: 5px; /* ขอบมน */
+  padding: 10px 20px; /* เว้นระยะภายใน */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อชี้ที่ปุ่ม */
+}
+
+.bottom-right-button:hover {
+  background-color: #0056b3; /* เปลี่ยนสีเมื่อ hover */
+}
+.speaker-profile {
+  text-align: center; /* จัดกลางข้อความทั้งหมด */
+  padding: 20px; /* เพิ่มระยะห่างรอบๆ */
+  border: 1px solid #ddd; /* ขอบสีเทา */
+  border-radius: 10px; /* ขอบมน */
+  background-color: #f9f9f9; /* สีพื้นหลัง */
+  margin: 20px 0; /* ระยะห่างระหว่างโปรไฟล์ */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงาให้ดูน่าสนใจ */
+}
+
+.speaker-photo {
+  width: 200px; /* ขนาดของภาพวิทยากร */
+  height: auto; /* รักษาอัตราส่วนภาพ */
+  border-radius: 75px; /* ทำให้ภาพเป็นวงกลม */
+  margin-bottom: 15px; /* ระยะห่างระหว่างภาพและข้อความด้านล่าง */
+}
+
+.speaker-name {
+  font-size: 24px; /* ขนาดฟอนต์ชื่อวิทยากร */
+  font-weight: bold; /* ตัวหนา */
+}
+
+.speaker-title, .speaker-organization, .speaker-bio, .session-title, .session-description, .session-time {
+  margin: 5px 0; /* ระยะห่างระหว่างบรรทัด */
+  color: #555; /* สีของข้อความ */
+}
+
+.social-link {
+  display: inline-block; /* ทำให้ลิงค์แสดงเป็นปุ่ม */
+  margin-top: 10px; /* ระยะห่างจากข้อความด้านบน */
+  padding: 10px 15px; /* ระยะห่างภายใน */
+  background-color: #007bff; /* สีพื้นหลังปุ่ม */
+  color: white; /* สีข้อความ */
+  text-decoration: none; /* ไม่ให้มีเส้นใต้ */
+  border-radius: 5px; /* ขอบมน */
+}
+
+.social-link:hover {
+  background-color: #0056b3; /* เปลี่ยนสีเมื่อวางเมาส์ */
+}
+
+/*Info-section*/
+
 
 .sponsor-logo img {
   max-height: 150px;
