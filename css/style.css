@@ -947,4 +947,19 @@ textarea {
   transform: scale(1.05); /* Slight zoom on hover */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
 }
+/*Sponsor Hero Section*/
+.img-sponsor img{
+  border-radius:15px;
+  width:65%;
+  height:65%;
+  float:right;
+}
+.mini-info {
+  font-weight: bold;
+  font-size: 18px; /* Increase font size */
+  font-family: Arial, sans-serif; /* Change font family */
+  color: #333; /* Change text color */
+  text-align: left; /* Center align text */
+  margin-bottom: 10px; /* Add some margin */
+}
 /**Thun Edit Css Ended Here**/
