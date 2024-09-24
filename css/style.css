@@ -906,6 +906,45 @@ textarea {
   font-weight: bold;
   font-size: 20px;
 }
-/*Info-section*/
+/*Sponsor Page*/
+.sponsor-section {
+  background: linear-gradient(135deg, #7c231b, #333); /* Custom red to black gradient */
+  color: white; /* Ensures text remains visible */
+  padding: 50px 0;
+}
 
+.sponsor-tag-gold{
+  margin-bottom:30px;
+  font-weight:bold;
+  color:gold;
+}
+
+.sponsor-tag-silver{
+  margin-bottom:30px;
+  font-weight:bold;
+  color:silver;
+}
+
+.sponsor-tag-bronze{
+  margin-bottom:30px;
+  font-weight:bold;
+  color: #cd7f32;
+}
+
+.sponsor-logo img {
+  max-height: 150px;
+  object-fit: contain;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 5px; /* Slightly rounded corners */
+  padding: 5px; /* Adds some padding inside the border */
+  background-color: #fff; /* Ensures a white background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth effect on hover */
+}
+
+.sponsor-logo img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+}
 /**Thun Edit Css Ended Here**/
